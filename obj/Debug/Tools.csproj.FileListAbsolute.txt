@@ -1,0 +1,17 @@
+C:\Users\user.COMP-02\source\repos\Tools\bin\Debug\Tools.exe.config
+C:\Users\user.COMP-02\source\repos\Tools\bin\Debug\Tools.exe
+C:\Users\user.COMP-02\source\repos\Tools\bin\Debug\Tools.pdb
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\MainWindow.g.cs
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\App.g.cs
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools_MarkupCompile.cache
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools_MarkupCompile.lref
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\MainWindow.baml
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.g.resources
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.Properties.Resources.resources
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.csproj.GenerateResource.cache
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.exe
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\Tools.pdb
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\About.g.cs
+C:\Users\user.COMP-02\source\repos\Tools\obj\Debug\About.baml

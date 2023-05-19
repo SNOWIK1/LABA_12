@@ -1,0 +1,59 @@
+﻿<Window x:Class="Tools.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tools"
+        mc:Ignorable="d"
+        Title="Tools" Height="450" Width="800">
+    <Grid>
+
+        <ToolBar VerticalAlignment="Top" Background="AliceBlue" >
+            <Separator/>
+            <Menu Background="AliceBlue">
+                <MenuItem Header="Menu">
+                    <MenuItem Header="File">
+                        <MenuItem Header="Message" Click="Message"/>
+                        <MenuItem Header="Check" Click="Check"/>
+                        <MenuItem Header="Exit" Click="Exit"/>
+                    </MenuItem>
+
+                    <MenuItem Header="Help">
+                        <MenuItem Header="About" Click="AboutClick"/>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <Separator/>
+            <Button Content="Message" Click="Message"/>
+            <Button Content="Check" Click="Check"/>
+            <Button Content="Exit" Click="Exit"/>
+            <Separator/>
+            <ToggleButton x:Name="bold" Content="Bold" FontWeight="Bold" Click="Styles"/>
+            <ToggleButton x:Name="italic" Content="Italic" FontStyle="Italic" Click="Styles"/>
+            <ToggleButton x:Name="underline" Click="Styles">
+                <ToggleButton.Content>
+                    <TextBlock Text="Underline" TextDecorations="Underline"/>
+                </ToggleButton.Content>
+            </ToggleButton>
+            <Separator/>
+            <ComboBox x:Name="scales" Width="50" SelectionChanged="ScaleChange">
+                <ComboBox.Items>
+                    <TextBlock Text="50%"/>
+                    <TextBlock Text="100%"/>
+                    <TextBlock Text="150%"/>
+                </ComboBox.Items>
+            </ComboBox>
+        </ToolBar>
+        
+        <TextBlock x:Name="answer" Text="Разделение можно сделать с помощью самозакрывающегося тега Separator." VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Times New Roman"/>
+
+        <Grid.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Message" Click="Message"/>
+                <MenuItem Header="Check" Click="Check"/>
+                <MenuItem Header="Exit" Click="Exit"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+    </Grid>
+
+</Window>
